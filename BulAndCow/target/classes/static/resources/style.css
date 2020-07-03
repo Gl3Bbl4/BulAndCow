@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100vw;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: orange;
+}
+
+.header__title {
+    color: white;
+    font-size: 28px;
+}
+
+.header__auth {
+    margin-left: 10px;
+    color: white;
+    font-size: 28px;
+}
+
+.content {
+    display: flex;
+    margin-top: 50px;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.content__game {
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+.content__steps {
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+.content__rate {
+    width: 33%;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.content__game__panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    height: 28px;
+    border: 1px solid green;
+    margin: 15px 10px;
+    padding: 5px;
+    outline: none;
+    min-width: 70%;
+}
+
+.button {
+    height: 40px;
+    margin: 15px 10px;
+    width: 30%;
+}
+
+.authorization {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    padding: 20px;
+}
+
+.authorization__enter {
+    border: 1px solid black;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.authorization__registration {
+    border: 1px solid black;
+    width: 50%;
+}
